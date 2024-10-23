@@ -69,7 +69,7 @@ line-height: 20px;
 color: #6f6f6f
 }
 
-.header__paragraph--aligned-bottom {
+.header__paragraph_aligned-bottom {
 align-self: flex-end;
 font-family: "Inter", "Arial", sans-serif;
 font-weight: 500;
@@ -136,11 +136,15 @@ line-height: 30px;
   list-style-type: none;
   }
 
-  .recipes__video-caption {
-    display: flex;
-    justify-content: space-between;
-    font-family: "Inter", "Arial", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+  .iframe {
+    border: 0;
   }
