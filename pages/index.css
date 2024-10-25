@@ -212,8 +212,6 @@ line-height: 30px;
 }
 
  .form__checkbox:checked {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background-color: #1878dc;
   background-image:url(../images/Images/check.svg);
@@ -228,7 +226,7 @@ line-height: 30px;
  }
 
  .form__label {
-   font-family: "Inter", "Arial" sans-serif;
+   font-family: "Inter", "Arial", sans-serif;
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
