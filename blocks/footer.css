@@ -11,8 +11,8 @@
 }
 
 .footer__logo {
-width: 105px;
-height: 39px;
+  width: 105px;
+  height: 39px;
 }
 
 .footer__column-heading {
@@ -20,7 +20,7 @@ height: 39px;
 }
 
 .footer__list {
-  margin:  0;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -36,7 +36,7 @@ height: 39px;
 }
 
 .footer__social-link:hover {
-opacity: 70%;
+  opacity: 70%;
 }
 
 .footer__social-icon {
