@@ -3,9 +3,12 @@
   height: 800px;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/Images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   position: relative;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .header__image {
@@ -14,6 +17,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -30,8 +34,6 @@
   font-family: "Noto Serif", "Times New roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
   display: block;
 }

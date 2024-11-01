@@ -22,6 +22,7 @@
 }
 
 .form__button {
+  color: #fff;
   border-radius: 4px;
   width: 100%;
   border: none;
@@ -49,15 +50,9 @@
 .form__checkbox:checked {
   appearance: none;
   background-color: #1878dc;
-  background-image: url(../images/Images/check.svg);
+  background-image: url(../images/check.svg);
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.form__label_type_checkbox {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
 }
 
 .form__label {
@@ -65,4 +60,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
 }
